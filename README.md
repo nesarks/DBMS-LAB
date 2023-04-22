@@ -1,2 +1,2 @@
 # DBMS lab experiments in Jain university Banglore.
-DBMS experiments with queries.
+These files are part of DBMS lab conducted at JAIN UNIVERSITY Banglore.
