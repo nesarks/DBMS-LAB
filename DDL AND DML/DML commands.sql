@@ -1,0 +1,62 @@
+--Inserting values to table Route_details
+
+INSERT INTO ROUTE_DETAILS VALUES(1, 25, 'SALEM', 'ERODE', 50);
+INSERT INTO ROUTE_DETAILS VALUES(2, 10, 'SALEM', 'MYSORE', 37);
+INSERT INTO ROUTE_DETAILS VALUES(3, 20, 'ERODE', 'COMIBATORE', 40);
+
+
+--To Display table Route_details
+
+SELECT * FROM ROUTE_DETAILS;
+
+
+--Inserting values to table Ticket_details
+
+INSERT INTO TICKET_DETAILS VALUES(25, 1001, '27-JAN-2008', 5, 2);
+INSERT INTO TICKET_DETAILS VALUES(2, 1002, '29-JAN-2008', 2, 0);
+INSERT INTO TICKET_DETAILS VALUES(3, 1004, '30-JAN-2008', 3, 3);
+INSERT INTO TICKET_DETAILS VALUES(4, 1005, '30-JAN-2008', 4, 4);
+INSERT INTO TICKET_DETAILS VALUES(100, 1006, '25-JAN-2008', 3, 1);
+
+
+--Inserting values to table R
+
+INSERT INTO R SELECT * FROM ROUTE_DETAILS;
+
+
+
+--Selecting a Distinct row from table Ticket_details
+
+SELECT DISTINCT D_ISSUE FROM TICKET_DETAILS WHERE ROUTE_ID
+= 100;
+
+
+
+--Inserting values to table Place_details
+
+INSERT INTO PLACE_DETAILS VALUES('FOURROADS', 'SALEM');
+
+
+
+--Selecting Bus_station column from Table Place_details
+
+SELECT BUS_STATION FROM PLACE_DETAILS;
+
+
+
+--Updating table Place_details
+
+UPDATE PLACE_DETAILS SET BUS_STATION = 'TRICHY' WHERE
+PLACE_NAME = 'SALEM';
+
+
+
+--Viewing table Place_details
+
+SELECT * FROM PLACE_DETAILS;
+
+
+
+--Deleting a row in table Route_details
+
+DELETE FROM ROUTE_DETAILS WHERE ROUTE_NO = 25;

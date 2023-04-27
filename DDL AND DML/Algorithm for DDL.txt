@@ -1,0 +1,9 @@
+1) Create table route-details, ticket details, place details & stall details with respective
+fields and data types
+2) Describe the field names with respective data types
+3) Alter the sate table by adding new fields reg-no
+4) Alter the table stall details by adding new field reg-no
+5) Describe the field names of stall details with modified edamples
+6) Truncate the variables in stall details
+7) Delete the entire table stall details
+8) Create table R with respective fields

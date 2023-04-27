@@ -1,0 +1,4 @@
+Different Data Definition Language (DDL), Data Manipulation Language (DML)
+commands on a sample database.
+DDL: CREATE, DROP, TRUNCATE,ALTER AND RENAME
+DML: INSERT, UPDATE AND DELETE

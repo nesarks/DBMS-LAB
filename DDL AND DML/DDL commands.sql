@@ -1,0 +1,61 @@
+--Create table Route_detais
+
+CREATE TABLE ROUTE_DETAILS
+(ROUTE_ID NUMBER(4),
+ROUTE_NO NUMBER(3), 
+ORIGIN CHAR(15), 
+DESTINATION CHAR(15), 
+CAPACITY NUMBER(4));
+
+
+--Create table Ticket_details
+
+CREATE TABLE TICKET_DETAILS
+(ROUTE_ID NUMBER(4), 
+TICKET_NO NUMBER(4),
+D_ISSUE DATE, 
+ADULT NUMBER(2), 
+CHILDREN NUMBER(2));
+
+
+--Create table Place_details
+
+CREATE TABLE PLACE_DETAILS
+(BUS_STATION VARCHAR(15),
+PLACE_NAME VARCHAR(15));
+
+
+--Create table Stall_details
+
+CREATE TABLE STALL_DETAILS
+(STALL_NO NUMBER(5),
+STALL_NAME VARCHAR(15));
+
+
+--Displaying Stall_details table 
+
+DESC STALL_DETAILS;
+
+
+--Adding to the Stall_details table
+
+ALTER TABLE STALL_DETAILS ADD(REG_NO NUMBER(5));
+
+--Modifying the Stall_details table
+
+ALTER TABLE STALL_DETAILS MODIFY(REG_NO NUMBER(10));
+
+
+--Dropping the table Stall_details
+
+DROP TABLE STALL_DETAILS;
+
+
+--Creating table R
+
+CREATE TABLE R
+(ROUTE_ID NUMBER(4),
+ROUTE_NO CHAR(15), 
+ORIGIN CHAR(15), 
+DESTINATION CHAR(15), 
+CAPACITY NUMBER(4));

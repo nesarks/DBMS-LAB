@@ -1,0 +1,11 @@
+1) Insert the values according to the respective data type into the table route details.
+2) Select entire data of route details
+3) Insert values into ticket details
+4) The details from table route-details are directly inserted into R
+5) Select entire details from the table ticket details
+6) Insert the values into ticket-details
+7) Distinct d-issue is selected from ticket details with the constraint of route id=100;
+8) Update the table place-details with the fields bus-station with the condition of route
+id=20.
+9) Select the entire data from place details
+10) Delete the row with route no is 25 from route-details
